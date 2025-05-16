@@ -22,7 +22,7 @@ html {
 .container {
     display: grid;
     grid-template-columns: .5fr 2.25fr;
-    height: 100vh;
+    min-height: 100vh;
     grid-template-rows: auto 1fr;
 }
 
